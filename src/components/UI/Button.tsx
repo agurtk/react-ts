@@ -1,13 +1,5 @@
 import React from "react";
 
-// type ButtonProps = {
-//   el: "button";
-// } & React.ComponentPropsWithoutRef<"button">;
-
-// type LinkProps = {
-//   el: "link";
-// } & React.ComponentPropsWithoutRef<"a">;
-
 type ButtonProps = React.ComponentPropsWithoutRef<"button"> & {
     href?: never;
 };
